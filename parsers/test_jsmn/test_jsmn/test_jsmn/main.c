@@ -12,9 +12,10 @@
 #include <dirent.h>
 #include <stdio.h>
 #include <string.h>
-#include "jsmn.h"
 
 #define JSMN_STRICT 1
+
+#include "jsmn.h"
 
 int testFile(const char *filename) {
     
